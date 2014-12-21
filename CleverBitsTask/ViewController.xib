@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController">
+            <connections>
+                <outlet property="itemsFieldView" destination="GQR-sq-bUF" id="yaD-Gx-zSo"/>
+                <outlet property="modeSwitch" destination="Ox1-Ut-LK7" id="t3h-0h-4dM"/>
+                <outlet property="view" destination="4Op-00-NRH" id="yN0-6W-jop"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="4Op-00-NRH">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GQR-sq-bUF" customClass="ItemsFieldView">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ox1-Ut-LK7">
+                    <rect key="frame" x="541" y="10" width="51" height="31"/>
+                    <connections>
+                        <action selector="modeSwitchValueChanged:" destination="-1" eventType="valueChanged" id="KEY-XD-kuY"/>
+                    </connections>
+                </switch>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Ox1-Ut-LK7" firstAttribute="top" secondItem="4Op-00-NRH" secondAttribute="top" constant="10" id="69m-uu-nOV"/>
+                <constraint firstAttribute="trailing" secondItem="GQR-sq-bUF" secondAttribute="trailing" id="AQB-1N-mdN"/>
+                <constraint firstAttribute="trailing" secondItem="Ox1-Ut-LK7" secondAttribute="trailing" constant="10" id="LeG-LO-VG6"/>
+                <constraint firstItem="GQR-sq-bUF" firstAttribute="top" secondItem="4Op-00-NRH" secondAttribute="top" id="gUM-2G-exn"/>
+                <constraint firstAttribute="bottom" secondItem="GQR-sq-bUF" secondAttribute="bottom" id="mZU-EV-byI"/>
+                <constraint firstItem="GQR-sq-bUF" firstAttribute="leading" secondItem="4Op-00-NRH" secondAttribute="leading" id="sZp-h5-qwq"/>
+            </constraints>
+            <point key="canvasLocation" x="586" y="455"/>
+        </view>
+    </objects>
+</document>
