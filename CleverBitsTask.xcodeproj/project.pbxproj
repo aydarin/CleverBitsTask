@@ -19,6 +19,7 @@
 		1E10C4C71A478190006F8ADD /* ItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E10C4BE1A478190006F8ADD /* ItemView.m */; };
 		1E10C4C81A478190006F8ADD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E10C4C01A478190006F8ADD /* ViewController.m */; };
 		1E10C4C91A478190006F8ADD /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E10C4C11A478190006F8ADD /* ViewController.xib */; };
+		1E10C4CE1A479167006F8ADD /* shuriken.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E10C4CD1A479167006F8ADD /* shuriken.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		1E10C4BF1A478190006F8ADD /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1E10C4C01A478190006F8ADD /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1E10C4C11A478190006F8ADD /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		1E10C4CD1A479167006F8ADD /* shuriken.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shuriken.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				1E10C4CA1A4781A5006F8ADD /* Model */,
 				1E10C49B1A47814E006F8ADD /* Images.xcassets */,
 				1E10C49D1A47814E006F8ADD /* LaunchScreen.xib */,
+				1E10C4CC1A479167006F8ADD /* Resources */,
 				1E10C48E1A47814E006F8ADD /* Supporting Files */,
 			);
 			path = CleverBitsTask;
@@ -156,6 +159,14 @@
 				1E10C4BE1A478190006F8ADD /* ItemView.m */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		1E10C4CC1A479167006F8ADD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1E10C4CD1A479167006F8ADD /* shuriken.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +251,7 @@
 			files = (
 				1E10C4C61A478190006F8ADD /* ItemsFieldView.xib in Resources */,
 				1E10C49F1A47814E006F8ADD /* LaunchScreen.xib in Resources */,
+				1E10C4CE1A479167006F8ADD /* shuriken.png in Resources */,
 				1E10C4C91A478190006F8ADD /* ViewController.xib in Resources */,
 				1E10C49C1A47814E006F8ADD /* Images.xcassets in Resources */,
 			);
@@ -448,6 +460,7 @@
 				1E10C4B01A47814E006F8ADD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E10C4B11A47814E006F8ADD /* Build configuration list for PBXNativeTarget "CleverBitsTaskTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +469,7 @@
 				1E10C4B31A47814E006F8ADD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
